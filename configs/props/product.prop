@@ -45,6 +45,9 @@ ro.lmk.thrashing_limit=30
 ro.lmk.thrashing_limit_decay=50
 ro.lmk.stall_limit_critical=40
 
+# Media
+ro.odm.build.media_performance_class=30
+
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
