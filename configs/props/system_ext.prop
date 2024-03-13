@@ -6,6 +6,9 @@ vendor.mm.enable.qcom_parser=16777215
 vendor.media.target.version=3
 vendor.media.target_variant=_khaje
 
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+
 # Telephony
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
