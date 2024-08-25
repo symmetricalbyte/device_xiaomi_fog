@@ -260,7 +260,7 @@ vendor/lib64/libcom.qti.chinodeutils.so|3bd4a1fd8e96cf9d43ad1d28daf6b3b2f9bb3dcb
 vendor/lib64/libipebpsstriping.so|84e920e320a5fa35b900e36fcdaba74dbedb384b
 vendor/lib64/libjpege.so|598536cd427186dba8c85f0bc1fa98c8c1174d9d
 vendor/lib64/libmctfengine_stub.so|ca4772217b63716ba7f91763d3c38457e905ee05
-vendor/lib64/libmialgoengine.so|5df8644f3501f419f3b14d80872f124da945ce3d
+vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF|5df8644f3501f419f3b14d80872f124da945ce3d
 vendor/lib64/libmibokeh_712.so|e721cd252667e4dce330aac4ae0ddaef1d5950c3
 vendor/lib64/libmorpho_Lowlight.so|aa4aeffab045ff32afa1e7607d750e7b45b498c4
 vendor/lib64/libmpbase.so|e6b51e2d501f434eea15ecdc275011d1498301ae
@@ -318,7 +318,7 @@ vendor/lib64/camera/components/com.qti.node.eisv3.so|e9d7b38042d83c8bef2c0307efe
 vendor/lib64/camera/components/com.qti.node.fcv.so|0fef3a2c4f23770c18ac23947cebad620b4add36
 vendor/lib64/camera/components/com.qti.node.gpu.so|933cd2b2fe267da03e65806ddb6e43fd828f3e77
 vendor/lib64/camera/components/com.qti.node.memcpy.so|1f47048936a8b7da6b7fe104fb0da5b8d9f1b965
-vendor/lib64/camera/components/com.qti.node.mialgocontrol.so|ad27f8c642d01f3d3d6d02dc04da50a414dd62bc
+vendor/lib64/camera/components/com.qti.node.mialgocontrol.so;DISABLE_CHECKELF|ad27f8c642d01f3d3d6d02dc04da50a414dd62bc
 vendor/lib64/camera/components/com.qti.node.mimovie.so|147a546c315c1e5e204482168af957c15bc4c3e4
 vendor/lib64/camera/components/com.qti.node.remosaic.so|dea6b03192d62f5412195f834e05ccce321c06c8
 vendor/lib64/camera/components/com.qti.node.stich.so|f5e9e3dc322c62e892c960577b903b3020560055
@@ -473,11 +473,11 @@ vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
-vendor/lib64/libcne.so
+vendor/lib64/libcne.so;DISABLE_CHECKELF
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libwms.so
-vendor/lib64/libwqe.so
+vendor/lib64/libwqe.so;DISABLE_CHECKELF
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
@@ -637,7 +637,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server
+vendor/bin/lowi-server;DISABLE_CHECKELF
 vendor/bin/mlid
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
@@ -802,7 +802,7 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 vendor/bin/ims_rtp_daemon
-vendor/bin/imsdatadaemon
+vendor/bin/imsdatadaemon;DISABLE_CHECKELF
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/etc/init/ims_rtp_daemon.rc
@@ -907,7 +907,7 @@ vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libdsd2pcm.so
 vendor/lib64/libOmxAacDec.so
