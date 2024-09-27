@@ -120,11 +120,11 @@ vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # Audio HAL - from MIUI
-vendor/lib/hw/audio.primary.bengal.so|ef3b29f74f92ce55ed483134cf70ba7bd6440c8f
+vendor/lib/hw/audio.primary.bengal.so;FIX_SONAME|ef3b29f74f92ce55ed483134cf70ba7bd6440c8f
 vendor/lib/libaudio_log_utils.so|4bb503a7c4a866ae183bf91073dccc8f35ea9133
 
 # Audio Libraries - from MIUI
-vendor/lib/liba2dpoffload.so|51d8ead5fb0b1130d57307456ef0cd179ec6bb32
+vendor/lib/liba2dpoffload.so;FIX_SONAME|51d8ead5fb0b1130d57307456ef0cd179ec6bb32
 vendor/lib/libacdb-fts.so|a5a208b16bac9b4f7c734d12199f6793b27e1484
 vendor/lib/libacdbloader.so|01b5455cc9461b61d5053eb9766c3c4d6e95b5ef
 vendor/lib/libacdbrtac.so|b43cf6ab7264e99939a6274ca00acddaa445d7af
@@ -941,7 +941,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off charging daemon - from MIUI
-bin/charger:bin/chargeonlymode|ab71ddd91d39f5ffc4ee640aa7dfad0a6396d4bd
+bin/charger:bin/chargeonlymode;FIX_SONAME|ab71ddd91d39f5ffc4ee640aa7dfad0a6396d4bd
 
 # QCC
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
