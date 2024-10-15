@@ -276,6 +276,7 @@ vendor/lib64/libwa_refocus.so|6030a888e1ced25463c7807a27c3c283a2ad75e8
 vendor/lib64/libwa_rtdof.so|6fffa3b062f12ad283cd7052bce6f396e66f811c
 vendor/lib64/libxmi_hdr_checker.so|42236d6de2e193170619c26b40dbb8a1e23f92c9
 vendor/lib64/libxmi_high_dynamic_range.so|6f1748496ee0ad12629f3188fbf2f536cec1a536
+vendor/lib64/libxml2_vendor.so
 
 # Camera Arcsoft - from MIUI
 vendor/lib64/libarcsoft_beautyshot.so|6cf07f8c5698e374414a5972d6e72c079bcae9a2
@@ -633,6 +634,7 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GNSS
+vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -653,6 +655,9 @@ vendor/etc/xtra_root_cert.pem
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
+vendor/lib64/libasn1cper.so
+vendor/lib64/libasn1crt.so
+vendor/lib64/libasn1crtx.so
 vendor/lib64/libbatching.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
@@ -690,6 +695,7 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # GPS
 vendor/etc/apdr.conf
@@ -982,6 +988,7 @@ vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
+vendor/lib64/libqmi_legacy.so
 vendor/lib64/libqmiservices.so
 
 # QSP
@@ -1384,3 +1391,9 @@ vendor/lib64/libwvkeybox.so|f0425e7cc15d0740763df190c56155f874b9c32a
 vendor/bin/cnss-daemon|075855fb8205203a4bc87bf8e21ce62d47579cc1
 vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
 vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
+
+# WiFi Display
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfddisplayconfig_proprietary.so
+vendor/lib/libwfdmmservice_proprietary.so
+vendor/lib/libwfdutils_proprietary.so
