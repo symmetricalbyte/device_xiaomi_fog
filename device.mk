@@ -317,6 +317,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigFog \
     DialerFog \
+    DeviceAsWebcamFog \
     FrameworksFog \
     FrameworksFogIN2 \
     LineageSDKFog \
