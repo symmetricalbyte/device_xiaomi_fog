@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fog.mk
+    $(LOCAL_DIR)/miku_fog.mk
+
+COMMON_LUNCH_CHOICES := \
+    miku_fog-ap2a-user \
+    miku_fog-ap2a-userdebug \
+    miku_fog-ap2a-eng
