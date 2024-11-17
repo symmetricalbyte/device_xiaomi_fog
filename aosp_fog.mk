@@ -14,6 +14,9 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
 
+# Inherit private signing keys
+-include vendor/pb-priv/keys/keys.mk
+
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
