@@ -206,6 +206,9 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 
+# Media
+vendor.media.omx=0
+
 # NFC
 ro.hardware.nfc_nci=pn8x
 ro.vendor.se.type=HCE,UICC
