@@ -16,6 +16,11 @@ rm -rf Android.bp
 rm -rf techpack/audio/Android.bp
 cd ../../..
 
+# TMP: https://review.lineageos.org/c/LineageOS/android_packages_apps_Messaging/+/407299
+cd packages/apps/Messaging
+git fetch https://github.com/LineageOS/android_packages_apps_Messaging refs/changes/99/407299/2 && git cherry-pick FETCH_HEAD
+cd ../../..
+
 # Clone MindTheGapps
 git clone -b vic https://gitlab.com/MindTheGapps/vendor_gapps vendor/gapps
 export WITH_GMS=true
