@@ -15,3 +15,7 @@ cd kernel/xiaomi/fog
 rm -rf Android.bp
 rm -rf techpack/audio/Android.bp
 cd ../../..
+
+# Clone MindTheGapps
+git clone -b vic https://gitlab.com/MindTheGapps/vendor_gapps vendor/gapps
+export WITH_GMS=true
