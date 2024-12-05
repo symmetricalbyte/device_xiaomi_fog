@@ -8,7 +8,7 @@ git clone -b fourteen https://github.com/alternoegraha/vendor_xiaomi_fog vendor/
 git clone --depth=1 -b fog-r-oss-staging https://github.com/alternoegraha/fog_kernel_xiaomi_sm6225 kernel/xiaomi/fog
 
 # Clone LineageOS' hardware/xiaomi
-git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone -b fourteen https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 # Kernel fixups
 cd kernel/xiaomi/fog
