@@ -17,6 +17,9 @@ TARGET_SUPPORTS_QUICK_TAP := false
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
+# Include my own signing keys
+-include vendor/fog-priv/keys/keys.mk
+
 PRODUCT_NAME := pixelage_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
