@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_fog.mk
+    $(LOCAL_DIR)/derp_fog.mk
