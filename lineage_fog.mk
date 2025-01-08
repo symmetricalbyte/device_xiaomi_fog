@@ -27,4 +27,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fog_global-user 13 TKQ1.221114.001 V14.0.8.0.TGEMIXM release-keys" \
+    RISING_MAINTAINER="symmetricalbyte" \
     BuildFingerprint=Redmi/fog_global/fog:13/TKQ1.221114.001/V14.0.8.0.TGEMIXM:user/release-keys
+
+#Flags
+PRODUCT_NO_CAMERA := false
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
