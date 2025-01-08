@@ -21,7 +21,6 @@ persist.cne.feature=1
 # Display
 debug.sf.enable_hwc_vds=0
 debug.sf.auto_latch_unsignaled=0
-ro.surface_flinger.supports_background_blur=0
 
 # DPM
 persist.dpm.feature=1
@@ -62,7 +61,6 @@ persist.log.tag.gralloc4=S
 
 # Media
 debug.stagefright.c2inputsurface=-1
-debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
